@@ -4,3 +4,7 @@ jdk:
    - oraclejdk8
    
 archive: true
+
+copy_buildoutput:
+    - pwd
+    - ls -al

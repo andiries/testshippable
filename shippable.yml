@@ -6,4 +6,4 @@ jdk:
 archive: true
 
 after_script:
-  - mv  target  shippable
+  - mv  target  shippable/buildoutput

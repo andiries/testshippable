@@ -34,6 +34,7 @@ public class DoSomethingClassTest extends TestCase {
         System.out.println("testing doSomething");
         DoSomethingClass instance = new DoSomethingClass();
         instance.doSomething();
+        
         assertTrue(true);
     }
 }

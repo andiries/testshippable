@@ -5,6 +5,5 @@ jdk:
    
 archive: true
 
-copy_buildoutput:
-    - pwd
-    - ls -al
+after_script:
+  - mv  target  shippable

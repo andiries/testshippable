@@ -10,5 +10,5 @@ public class App
     {
         DoSomethingClass doSomethingClass = new DoSomethingClass();
         doSomethingClass.doSomething();
-    }
+    
 }
